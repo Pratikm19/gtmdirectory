@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function fetchData() {
         try {
-            const response = await fetch('gtm-data-final.json');
+            const response = await fetch('gtm-data.json');
             const data = await response.json();
             toolsData = data.tools;
             

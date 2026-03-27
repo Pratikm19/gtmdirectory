@@ -6,7 +6,7 @@ A premium, interactive directory of curated GTM and RevOps tools.
 - Vanilla HTML5
 - Vanilla CSS3 (Custom Design System)
 - Vanilla JavaScript
-- JSON Data Source (`gtm-data-final.json`)
+- JSON Data Source (`gtm-data.json`)
 
 ## Features
 - Real-time filtering by Layer
