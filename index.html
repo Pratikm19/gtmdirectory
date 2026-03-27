@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTM Tech Stack Directory</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GTM Tech Stack Directory</h1>
+            <p class="subtitle">Curated roadmap for modern RevOps and Growth teams to build high-performance revenue engines.</p>
+        </header>
+
+        <div class="stats" id="directory-stats">
+            <!-- Stats will be populated by JS -->
+        </div>
+
+        <nav class="sticky-nav">
+            <div id="filter-bar">
+                <button class="filter-btn active" data-layer="all">All Layers</button>
+                <!-- Layer buttons will be populated by JS -->
+            </div>
+            <div class="search-wrapper">
+                <input type="text" id="search-input" placeholder="Search by tool name or role...">
+            </div>
+        </nav>
+
+        <main id="directory-grid">
+            <!-- Tool cards will be populated by JS -->
+        </main>
+
+        <footer style="margin-top: 5rem; text-align: center; padding: 2rem; color: var(--text-muted); border-top: 1px solid var(--border);">
+            <p>Managed by RevOps Framework • Version 1.0 • Last Updated: <span id="last-updated"></span></p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
